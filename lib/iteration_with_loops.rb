@@ -8,8 +8,8 @@ while row < src.count do
     src[row].sort!
     array1 << src[row][0]
 
-    element += 1
-  end
+   
+  
   row += 1
 end
 array1
