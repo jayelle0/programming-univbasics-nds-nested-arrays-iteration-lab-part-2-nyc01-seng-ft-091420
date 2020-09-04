@@ -10,7 +10,7 @@ while row < src.length do
     array1 << src[row][0]
     element +=1
   end
-  row +=1
+  row += 1
 end
 array1
     
