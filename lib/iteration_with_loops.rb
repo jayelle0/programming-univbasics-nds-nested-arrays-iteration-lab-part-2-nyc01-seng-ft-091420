@@ -5,7 +5,7 @@ row= 0
 array1 = []
 while row < src.count do 
   element = 0
-  while element < src[row].length do
+  while element < src[row].count do
     src[row].sort!
     array1 << src[row][0]
     element +=1
