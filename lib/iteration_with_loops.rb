@@ -3,7 +3,7 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
 row= 0 
 array1 = []
-while row < src.length do 
+while row < src.count do 
   element = 0
   while element < src[row].length do
     src[row].sort!
