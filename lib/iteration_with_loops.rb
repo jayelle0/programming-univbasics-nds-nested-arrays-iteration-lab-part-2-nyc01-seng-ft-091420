@@ -6,7 +6,7 @@ array1 = []
 while row < src.length do 
   element = 0
   while element < src[row].length do
-    src.sort!
+    src.[row]sort!
     array1 << src[row][0]
   end
 end
